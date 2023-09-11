@@ -1,0 +1,16 @@
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\bin\Debug\Forditva2.exe.config
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\bin\Debug\Forditva2.exe
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\bin\Debug\Forditva2.pdb
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.csproj.AssemblyReference.cache
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.csproj.SuggestedBindingRedirects.cache
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\MainWindow.g.cs
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\App.g.cs
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2_MarkupCompile.cache
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2_MarkupCompile.lref
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\MainWindow.baml
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.g.resources
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.Properties.Resources.resources
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.csproj.GenerateResource.cache
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.csproj.CoreCompileInputs.cache
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.exe
+C:\Users\toth.mate_csany-zeg\Documents\2023c\Forditva2\Forditva2\obj\Debug\Forditva2.pdb
