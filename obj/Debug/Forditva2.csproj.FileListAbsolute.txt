@@ -22,3 +22,11 @@ C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2_Mar
 C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2_MarkupCompile.lref
 C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.exe
 C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.pdb
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\bin\Debug\Forditva2.exe.config
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\bin\Debug\Forditva2.exe
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\bin\Debug\Forditva2.pdb
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\MainWindow.baml
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.g.resources
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.Properties.Resources.resources
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.csproj.GenerateResource.cache
+C:\Users\farkas.balint_csany-\Documents\GitHub\Forditva2\obj\Debug\Forditva2.csproj.CoreCompileInputs.cache
