@@ -1,0 +1,30 @@
+﻿<Window x:Class="Forditva2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forditva2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Grid Height="412" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="362*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Szöveg:&#xD;&#xA;" HorizontalAlignment="Left" Margin="88,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szöveg fordítva:&#xD;&#xA;" HorizontalAlignment="Left" Margin="48,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="szoveg" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="516" RenderTransformOrigin="0.5,0.502" Height="24"/>
+        <Label Content="Szavanként:&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="675,40,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="szovegford" Content="-&#xD;&#xA;" HorizontalAlignment="Left" Margin="142,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.608,0.025"/>
+        <Label Content="Szó:&#xD;&#xA;" HorizontalAlignment="Left" Margin="107,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szó fordítva:&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="63,159,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label x:Name="szoford" Content="-" HorizontalAlignment="Left" Margin="143,158,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szám:" HorizontalAlignment="Left" Margin="98,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szám reciproka:" HorizontalAlignment="Left" Margin="45,248,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="szamprok" Content="-" HorizontalAlignment="Left" Margin="143,248,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kép:&#xD;&#xA;" HorizontalAlignment="Left" Margin="105,295,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="szoe" Content="" HorizontalAlignment="Left" Margin="747,46,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Width="15"/>
+        <ComboBox x:Name="szo" HorizontalAlignment="Center" Margin="0,134,0,0" VerticalAlignment="Top" Width="515"/>
+
+    </Grid>
+</Window>
