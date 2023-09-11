@@ -26,5 +26,17 @@ namespace Forditva2
         private void gomb_Click(object sender, RoutedEventArgs e) {
 
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
+
+        }
+
+        private void szo_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e) {
+
+        }
     }
 }
