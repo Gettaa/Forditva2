@@ -60,7 +60,13 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <ComboBox x:Name="szo" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="246" SelectionChanged="szo_SelectionChanged" Height="34"/>
+        <ComboBox x:Name="szo" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="246" SelectionChanged="szo_SelectionChanged" Height="34">
+            <ComboBoxItem Content="lol"/>
+            <ComboBoxItem Content="pap"/>
+            <ComboBoxItem Content="wow"/>
+            <ComboBoxItem Content="xoxox"/>
+            <ComboBoxItem Content="görög"/>
+        </ComboBox>
         <TextBox x:Name="szam" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="246" Height="34" TextChanged="TextBox_TextChanged_1"/>
     </Grid>
 </Window>

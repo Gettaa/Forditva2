@@ -23,9 +23,18 @@ namespace Forditva2
 			InitializeComponent();
 		}
 
-		private void gomb_Click(object sender, RoutedEventArgs e) {
+        private void gomb_Click(object sender, RoutedEventArgs e) {
+            
+            //szoveg
+            char[] forditott = szoveg.Text.ToString().ToCharArray();
+            Array.Reverse(forditott);
+            szovegford.Content = new string(forditott);
 
-		}
+            //szo
+            char[] forditottsz = szo.Text.ToString().ToCharArray();
+            Array.Reverse(forditottsz);
+            szoford.Content = new string(forditottsz);
+        }
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
 
