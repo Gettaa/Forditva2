@@ -20,5 +20,47 @@
             <Setter Property="MinWidth" Value="450"/>
         </Style>
     </Window.Resources>
-    <Grid Style="{DynamicResource GridStyle1}" Margin="0,1,0,0" Height="450"/>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Content="Szöveg" HorizontalAlignment="Left" Margin="1,1,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szöveg fordítva&#xD;&#xA;" HorizontalAlignment="Left" Margin="1,54,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Label Content="Szó&#xD;&#xA;" HorizontalAlignment="Left" Margin="2,0,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="Szó fordítva" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Margin="0,1,0,0"/>
+        <Label Content="Szám&#xD;&#xA;" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Margin="0,2,0,0"/>
+        <Label Content="Szám reciproka&#xD;&#xA;" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Margin="0,54,0,0" Grid.RowSpan="2"/>
+        <Label Content="Kép&#xD;&#xA;" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Top"/>
+        <TextBox x:Name="szoveg" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="246" Height="34" TextChanged="TextBox_TextChanged"/>
+        <Label Grid.Column="2" Content="Szavanként" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center"/>
+        <CheckBox Grid.Column="2" Content="" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center"/>
+        <Label x:Name="szovegford" Grid.Column="1" Content="-" HorizontalAlignment="Left" Margin="10,16,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label x:Name="szoford" Grid.Column="1" Content="-" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center"/>
+        <Label x:Name="szam1" Grid.Column="1" Content="-&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,13,0,0" Grid.Row="5" VerticalAlignment="Top" RenderTransformOrigin="-0.468,0.468" Grid.RowSpan="2"/>
+        <Button x:Name="gomb" Grid.Column="2" Content="Fordítva!&#xD;&#xA;" HorizontalAlignment="Left" Margin="88,0,0,0" Grid.Row="7" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="99" Height="24" Click="gomb_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.445"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ComboBox x:Name="szo" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="246" SelectionChanged="szo_SelectionChanged" Height="34"/>
+        <TextBox x:Name="szam" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="246" Height="34" TextChanged="TextBox_TextChanged_1"/>
+    </Grid>
 </Window>
