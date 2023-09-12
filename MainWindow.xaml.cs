@@ -46,7 +46,11 @@ namespace Forditva2
                 szovegford.Content = new string(forditott);
             }
 
+            //kep
             KepForgat();
+
+            //reciprok
+            szamre.Content = 1 / cleanszam;
         }
 
         private bool forgatottkep = true;
@@ -56,7 +60,15 @@ namespace Forditva2
             forgatottkep = !forgatottkep;
         }
 
-		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
+        // számnak való
+        private float cleanszam;
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e) {
+            bool isNumeric = float.TryParse(szam.Text, out float val);
+            if (!isNumeric) szam.Text = "";
+            else cleanszam = val;
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
 
         }
 
@@ -68,11 +80,5 @@ namespace Forditva2
             
 		}
 
-		// számnak való
-		private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e) {
-			bool isNumeric = float.TryParse(szam.Text, out float val);
-			if (!isNumeric) szam.Text = new string(szam.Text.Take(szam.Text.Length - 1).ToArray());
-			else szamre.Content = 1 / val;
-		}
 	}
 }
