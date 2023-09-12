@@ -49,7 +49,7 @@
         <CheckBox Grid.Column="2" Content="" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center"/>
         <Label x:Name="szovegford" Grid.Column="1" Content="-" HorizontalAlignment="Left" Margin="10,16,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Label x:Name="szoford" Grid.Column="1" Content="-" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center"/>
-        <Label x:Name="szam1" Grid.Column="1" Content="-&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,13,0,0" Grid.Row="5" VerticalAlignment="Top" RenderTransformOrigin="-0.468,0.468" Grid.RowSpan="2"/>
+        <Label x:Name="szamre" Grid.Column="1" Content="-&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,13,0,0" Grid.Row="5" VerticalAlignment="Top" RenderTransformOrigin="-0.468,0.468" Grid.RowSpan="2"/>
         <Button x:Name="gomb" Grid.Column="2" Content="Fordítva!&#xD;&#xA;" HorizontalAlignment="Left" Margin="88,0,0,0" Grid.Row="7" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="99" Height="24" Click="gomb_Click">
             <Button.RenderTransform>
                 <TransformGroup>

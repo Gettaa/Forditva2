@@ -24,11 +24,6 @@ namespace Forditva2
 		}
 
         private void gomb_Click(object sender, RoutedEventArgs e) {
-            
-            //szoveg
-            char[] forditott = szoveg.Text.ToString().ToCharArray();
-            Array.Reverse(forditott);
-            szovegford.Content = new string(forditott);
 
             //szo
             char[] forditottsz = szo.Text.ToString().ToCharArray();
@@ -37,12 +32,14 @@ namespace Forditva2
         }
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
-
-		}
+            //szoveg
+            char[] forditott = szoveg.Text.ToString().ToCharArray();
+            Array.Reverse(forditott);
+            szovegford.Content = new string(forditott);
+        }
 
 		private void szo_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-
-		}
+        }
 
 		private void CheckBox_Checked(object sender, RoutedEventArgs e) {
 
@@ -50,8 +47,9 @@ namespace Forditva2
 
 		// számnak való
 		private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e) {
-			bool isNumeric = int.TryParse(szam.Text, out int val);
+			bool isNumeric = float.TryParse(szam.Text, out float val);
 			if (!isNumeric) szam.Text = new string(szam.Text.Take(szam.Text.Length - 1).ToArray());
+			else szamre.Content = 1 / val;
 		}
 	}
 }
