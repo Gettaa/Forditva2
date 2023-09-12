@@ -68,5 +68,6 @@
             <ComboBoxItem Content="görög"/>
         </ComboBox>
         <TextBox x:Name="szam" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="246" Height="34" TextChanged="TextBox_TextChanged_1"/>
+        <Image x:Name="kep" Grid.Column="1" HorizontalAlignment="Center" Grid.RowSpan="3" Grid.Row="5" Width="100" Source="/kep.png" Height="100" VerticalAlignment="Top" Margin="0,53,0,0"/>
     </Grid>
 </Window>

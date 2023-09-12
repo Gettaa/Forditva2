@@ -45,6 +45,10 @@ namespace Forditva2
                 Array.Reverse(forditott);
                 szovegford.Content = new string(forditott);
             }
+
+			//kep
+			//var kephol =
+			kep.RenderTransform = new RotateTransform(180);
         }
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
