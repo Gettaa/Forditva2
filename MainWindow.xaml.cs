@@ -46,9 +46,14 @@ namespace Forditva2
                 szovegford.Content = new string(forditott);
             }
 
-			//kep
-			//var kephol =
-			kep.RenderTransform = new RotateTransform(180);
+            KepForgat();
+        }
+
+        private bool forgatottkep = true;
+        private void KepForgat() {
+            if (forgatottkep) kep.RenderTransform = new RotateTransform(180);
+            else kep.RenderTransform = new RotateTransform(0);
+            forgatottkep = !forgatottkep;
         }
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
