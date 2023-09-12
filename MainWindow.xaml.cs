@@ -29,20 +29,34 @@ namespace Forditva2
             char[] forditottsz = szo.Text.ToString().ToCharArray();
             Array.Reverse(forditottsz);
             szoford.Content = new string(forditottsz);
+
+            //szoveg
+            if (pipa.IsChecked == true) {
+                string[] szavak = szoveg.Text.Split(' ');
+                string output = "";
+                foreach (string szo in szavak) {
+                    char[] forditott = szo.ToArray().Reverse().ToArray();
+                    output += new string(forditott) + " ";
+                }
+                szovegford.Content = output;
+            }
+            else if (pipa.IsChecked == false) {
+                char[] forditott = szoveg.Text.ToString().ToCharArray();
+                Array.Reverse(forditott);
+                szovegford.Content = new string(forditott);
+            }
         }
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
-            //szoveg
-            char[] forditott = szoveg.Text.ToString().ToCharArray();
-            Array.Reverse(forditott);
-            szovegford.Content = new string(forditott);
+
         }
 
 		private void szo_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+
         }
 
 		private void CheckBox_Checked(object sender, RoutedEventArgs e) {
-
+            
 		}
 
 		// számnak való
